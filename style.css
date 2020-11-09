@@ -38,11 +38,6 @@ h1 {
     text-align: center;
   }
   
-  .credits {
-    font-size: 14px;
-    display: block;
-    margin: 0 auto;
-  }
   
   .precip {
     color: #757575;
@@ -92,5 +87,11 @@ h1 {
   .card-text {
     font-size: 16px;
     margin: 0 0 0 0;
+  }
+
+  .credits {
+    font-size: 16px;
+    display: block;
+    margin: 30px 0 0 0;
   }
   
