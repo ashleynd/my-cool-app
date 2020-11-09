@@ -55,10 +55,12 @@ h1 {
   }
   .col-3 {
     text-align: center;
+    margin: 0 0 0 auto;
   }
   
   .col-2 {
     text-align: center;
+    margin: 0 0 0 auto;
   }
   .card-body {
     text-align: center;
@@ -80,7 +82,7 @@ h1 {
   }
   
   .card-emoji {
-    font-size: 65px;
+    font-size: 55px;
     margin: 0 0 0 auto;
   }
   
