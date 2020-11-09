@@ -1,21 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Repo Example</title>
-    <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App 🌤</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="temperature"></div>
+    <div class="container">
+      <form id="city-form">
+        <input
+          type="city"
+          id="city-input"
+          placeholder="Search for a city"
+          id="city-text-input"
+        />
+        <input type="submit" value="Search" /><button>Current</button>
+      </form>
+      <h1>
+        🌧
+      </h1>
+      <h2>
+        12°F
+      </h2>
 
-</head>
-<body>
-    <h4>
-        This project was coded by <a href="https://ashleydragan.myportfolio.com/">Ashley Dragan</a> and is <a href="https://github.com/ashleynd/my-cool-app"> open-sourced on Github</a> hosted on <a href="https://romantic-cori-2580fc.netlify.app">Netlify</a>.;
-    </h4>
-    <form>
-        <input type="email" placeholder="Enter your email" />
-        <input type="password" placeholder="Enter your password" />
-        <input type="submit" value ="Login" />
-    </form>
-    <script src="script.js"></script>
-</body>
+      <h3>
+        📍 New York City
+      </h3>
+
+      <p class="today">
+        Today is Thursday, April 4, 2020
+      </p>
+      Partly cloudy
+
+      <p class="precip">
+        Precipitation: 63%
+        <br />
+        Wind: 6km/hour
+      </p>
+
+      <h4></h4>
+
+      <p class="bring">
+        Don't forget your umbrella!
+      </p>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Thursday</p>
+              <p class="card-emoji">🌤</p>
+              <p class="card-text">18°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Friday</p>
+              <p class="card-emoji">🌤</p>
+              <p class="card-text">17°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Saturday</p>
+              <p class="card-emoji">🌦</p>
+              <p class="card-text">13°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Sunday</p>
+              <p class="card-emoji">☀️</p>
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">Monday</p>
+              <p class="card-emoji">☁️</p>
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="credits">
+      This project was coded by
+      <a href="https://ashleydragan.myportfolio.com/">Ashley Dragan</a> and is
+      <a href="https://github.com/ashleynd/my-cool-app">
+        open-sourced on Github</a
+      >
+      hosted on <a href="https://www.netlify.com/">Netlify</a>.
+    </p>
+    <script src="src/script.js"></script>
+  </body>
 </html>
