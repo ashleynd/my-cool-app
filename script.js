@@ -47,7 +47,13 @@ function showTemperature(response) {
   
   let p = document.querySelector("p");
   let hours = now.getHours();
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
   let minutes = now.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`
+  }
   
   let days = [
     "Sunday",
@@ -59,6 +65,7 @@ function showTemperature(response) {
     "Saturday"
   ];
   let day = days[now.getDay()];
+
   
   function showCity(event) {
     event.preventDefault();
@@ -68,7 +75,48 @@ function showTemperature(response) {
     h3.innerHTML = `📍${cityInput.value}`;
     searchCity(cityInput.value);
   }
+
   
+  
+  function displayForecast(response) {
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = null;
+    let forecast = null;
+    console.log(forecast);
+
+function formatHours(timestamp) {
+  let now = new Date(timestamp);
+    let hours = now.getHours();
+    if (hours < 10) {
+      hours = `0${hours}`;
+    }
+    let minutes = now.getMinutes();
+    if (minutes < 10) {
+      minutes = `0${minutes}`
+    }
+    return `${hours}:${minutes}`;
+
+  }
+    for (let index = 0; index < 5; index++) {
+    forecast = response.data.list[index];
+    forecastElement.innerHTML += `
+    <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">${formatHours(forecast.dt * 1000)}</p>
+        <p class="card-emoji"><img
+          src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
+          id="icon"
+          /></p>
+        <p class="card-text">Low ${Math.round(forecast.main.temp_min)}°F High ${Math.round(forecast.main.temp_max)}°F </p>
+      </div>
+    </div>
+  </div>
+  `; 
+    }
+  }
+
+
   function searchCity(city) {
     let units = "imperial";
     let apiKey = "586b5c6f092e43c3810d28481007963a";
@@ -76,6 +124,9 @@ function showTemperature(response) {
     let apiUrl = `${apiEndpoint}?q=${city}&appid=${apiKey}&units=${units}`;
   
     axios.get(apiUrl).then(showTemperature);
+
+    apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`;
+    axios.get(apiUrl).then(displayForecast);
   }
   
   let cityHere = document.querySelector("#city-form");
