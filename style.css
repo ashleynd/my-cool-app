@@ -1,68 +1,93 @@
 
-  body {
-    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  .container {
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 570px;
+    padding: 35px;
+    
+
   }
+
+  .find {
+    background: transparent;
+    border: solid 1px;
+    font-size: 18px;
+    padding: 5 5 5 5;
+    border-radius: 8px;
+    
+  }
+
+
+
   h1 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     font-size: 100px;
     margin: 30px 0 0 0;
   }
+
   
   button {
-    font-family: 'Snippet', sans-serif;
-    background: #7be2e2;
+    font-family: 'Questrial', sans-serif;
+    background: #73dfbe;
     border: solid 1px;
+    font-size: 18px;
+    padding: 5 5 5 5;
+    border-radius: 8px;
   }
   
   h2 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     font-size: 70px;
     font-weight: 30px;
     margin: 0 0 10px 0;
-    color: #a13578;
+    color: #a82375;
   }
   h3 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     font-size: 26px;
     margin: 0 0 15px 0;
-    color: #3fc1c9;
+    color: black;
+    text-align: center;
   }
   
   h4 {
-    font-family: 'Snippet', sans-serif;
-    color: #137083;
-    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    color: #006c7a;
+    font-size: 18px;
+    text-align: center;
   }
   p {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     text-transform: capitalize;
+    font-size: 18px;
   }
   
   
   .humidity {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #757575;
   }
 
   .wind {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #757575;
     margin: 0 auto;
   }
   
   .today {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #212121;
     font-size: 24px;
     text-transform: capitalize;
   }
 
   .description {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #212121;
     font-size: 24px;
     text-transform: capitalize;
@@ -71,37 +96,33 @@
 
   
   .col-3 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     margin: 0 0 0 auto;
   }
 
 
   .col-2 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     margin: 0 0 0 auto;
   }
   .card-body {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
     font-size: 15px;
     display: block;
-    margin: 0 0 0 auto;
     padding: 0 0 0 0;
   }
   
-  .container {
-    font-family: 'Snippet', sans-serif;
-    text-align: center;
-    margin: 40px;
-  }
+  
   
   .card {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     display: block;
     margin: 0 0 0 auto;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    border-radius: 8px;
   }
   
   .card-emoji {
@@ -110,15 +131,16 @@
   }
   
   .card-text {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 16px;
     margin: 0 0 0 0;
   }
 
   h6 {
-    font-family: 'Snippet', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 14px;
+    text-align: center;
     display: block;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
   }
   
