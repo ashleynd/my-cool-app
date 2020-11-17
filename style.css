@@ -1,7 +1,7 @@
  .container {
     background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 22px auto;
     width: 500px;
     padding: 35px;
     
@@ -11,7 +11,7 @@
   .find {
     background: transparent;
     border: solid 1px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5 5 5 5;
     border-radius: 8px;
     
@@ -32,7 +32,7 @@
     font-family: 'Questrial', sans-serif;
     background: #73dfbe;
     border: solid 1px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5 5 5 5;
     border-radius: 8px;
   }
@@ -40,7 +40,7 @@
   h2 {
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    font-size: 70px;
+    font-size: 74px;
     font-weight: 30px;
     margin: 0 0 10px 0;
     color: #a82375;
@@ -48,7 +48,7 @@
   h3 {
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    font-size: 26px;
+    font-size: 28px;
     margin: 0 0 15px 0;
     color: black;
     text-align: center;
@@ -57,14 +57,14 @@
   h4 {
     font-family: 'Questrial', sans-serif;
     color: #006c7a;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
   p {
     font-family: 'Questrial', sans-serif;
     text-align: center;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 22px;
   }
   
   
@@ -82,14 +82,14 @@
   .today {
     font-family: 'Questrial', sans-serif;
     color: #212121;
-    font-size: 24px;
+    font-size: 26px;
     text-transform: capitalize;
   }
 
   .description {
     font-family: 'Questrial', sans-serif;
     color: #212121;
-    font-size: 24px;
+    font-size: 26px;
     text-transform: capitalize;
   }
 
@@ -116,7 +116,7 @@
   .card-body {
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     display: block;
     padding: 0 0 0 0;
   }
@@ -138,13 +138,13 @@
   
   .card-text {
     font-family: 'Questrial', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 0 0 0;
   }
 
   h6 {
     font-family: 'Questrial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     display: block;
     margin: 0 0 0 0;
