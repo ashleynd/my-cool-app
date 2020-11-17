@@ -3,7 +3,7 @@
 function showTemperature(response) {
     console.log(response.data);
     let iconElement = document.querySelector("#icon");
-    iconElement.setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+    iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
     let descriptionElement = document.querySelector("#description");
     descriptionElement.innerHTML = response.data.weather[0].description;
     let windElement = document.querySelector("#wind");
