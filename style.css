@@ -1,22 +1,22 @@
-h1 {
-    color: blue;
-  }
-  
+
   body {
     background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   }
   h1 {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     font-size: 100px;
     margin: 30px 0 0 0;
   }
   
   button {
+    font-family: 'Snippet', sans-serif;
     background: #7be2e2;
     border: solid 1px;
   }
   
   h2 {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     font-size: 70px;
     font-weight: 30px;
@@ -24,6 +24,7 @@ h1 {
     color: #a13578;
   }
   h3 {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     font-size: 26px;
     margin: 0 0 15px 0;
@@ -31,38 +32,58 @@ h1 {
   }
   
   h4 {
+    font-family: 'Snippet', sans-serif;
     color: #137083;
     font-size: 20px;
   }
   p {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
+    text-transform: capitalize;
   }
   
   
-  .precip {
+  .humidity {
+    font-family: 'Snippet', sans-serif;
     color: #757575;
+  }
+
+  .wind {
+    font-family: 'Snippet', sans-serif;
+    color: #757575;
+    margin: 0 auto;
   }
   
   .today {
+    font-family: 'Snippet', sans-serif;
     color: #212121;
-    font-size: 22px;
+    font-size: 24px;
+    text-transform: capitalize;
   }
+
+  .description {
+    font-family: 'Snippet', sans-serif;
+    color: #212121;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+
+
   
-  .bring {
-    color: #a13578;
-    margin: 30px;
-    font-size: larger;
-  }
   .col-3 {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     margin: 0 0 0 auto;
   }
-  
+
+
   .col-2 {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     margin: 0 0 0 auto;
   }
   .card-body {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     font-size: 15px;
     display: block;
@@ -71,11 +92,13 @@ h1 {
   }
   
   .container {
+    font-family: 'Snippet', sans-serif;
     text-align: center;
     margin: 40px;
   }
   
   .card {
+    font-family: 'Snippet', sans-serif;
     display: block;
     margin: 0 0 0 auto;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -87,12 +110,14 @@ h1 {
   }
   
   .card-text {
+    font-family: 'Snippet', sans-serif;
     font-size: 16px;
     margin: 0 0 0 0;
   }
 
-  .credits {
-    font-size: 16px;
+  h6 {
+    font-family: 'Snippet', sans-serif;
+    font-size: 14px;
     display: block;
     margin: 30px 0 0 0;
   }
