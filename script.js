@@ -8,6 +8,8 @@ function showTemperature(response) {
     descriptionElement.innerHTML = response.data.weather[0].description;
     let windElement = document.querySelector("#wind");
     windElement.innerHTML = Math.round(response.data.wind.speed);
+    let feelsElement = document.querySelector("#feels");
+    feelsElement.innerHTML = Math.round(response.data.main.feels_like);
     let humidityElement = document.querySelector("#humidity");
     humidityElement.innerHTML = response.data.main.humidity;
     let temperature = Math.round(response.data.main.temp);
@@ -75,6 +77,8 @@ function showTemperature(response) {
     h3.innerHTML = `📍${cityInput.value}`;
     searchCity(cityInput.value);
   }
+
+
 
   
   

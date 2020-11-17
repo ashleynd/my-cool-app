@@ -1,5 +1,4 @@
-
-  .container {
+ .container {
     background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
     border-radius: 15px;
     margin: 20px auto;
@@ -17,6 +16,7 @@
     border-radius: 8px;
     
   }
+
 
 
 
@@ -57,25 +57,25 @@
   h4 {
     font-family: 'Questrial', sans-serif;
     color: #006c7a;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
   }
   p {
     font-family: 'Questrial', sans-serif;
     text-align: center;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   
   .humidity {
     font-family: 'Questrial', sans-serif;
-    color: #757575;
+    color: #636361;
   }
 
   .wind {
     font-family: 'Questrial', sans-serif;
-    color: #757575;
+    color:#636361;
     margin: 0 auto;
   }
   
@@ -91,6 +91,12 @@
     color: #212121;
     font-size: 24px;
     text-transform: capitalize;
+  }
+
+  .feels {
+    font-family: 'Questrial', sans-serif;
+    color: #212121;
+    font-size: 20px;
   }
 
 
