@@ -101,7 +101,7 @@ function formatHours(timestamp) {
     return `${hours}:${minutes}`;
 
   }
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 3; index++) {
     forecast = response.data.list[index];
     forecastElement.innerHTML += `
     <div class="col">
