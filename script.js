@@ -109,7 +109,7 @@ function formatHours(timestamp) {
       <div class="card-body">
         <p class="card-text">${formatHours(forecast.dt * 1000)}</p>
         <p class="card-emoji"><img
-          src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
+          src="https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
           id="icon"
           /></p>
         <p class="card-text">Low ${Math.round(forecast.main.temp_min)}°F <br /> High ${Math.round(forecast.main.temp_max)}°F </p>
